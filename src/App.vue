@@ -1,7 +1,7 @@
 <script setup>
 import Father from './components/Father.vue';
 import Products from './components/Products.vue'
-
+import Clothes from './components/Clothes.vue'
 
 </script>
 
@@ -9,6 +9,7 @@ import Products from './components/Products.vue'
   <section class='container-main'>
     <Products />
     <Father />
+    <Clothes />
   </section>
 </template>
 
